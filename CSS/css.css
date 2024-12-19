@@ -50,8 +50,8 @@
         margin: 0 auto 5px; /* Adiciona margem na parte inferior da imagem */
     }
     .img1 {
-        max-width: 250px;
-        height: 200px;
+        max-width: 170px;
+        height: 150px;
         display: block;
         margin: 0 auto; /* Remova a margem superior */ /*margin:0 50px;/* Adiciona margem na parte inferior da imagem */
         margin-bottom: 7%;
