@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pagamento Pix</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="CSS/css.css">
+<script src="JS/javascript.js"></script>
+<style>
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('pix.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+</style>
+</head>
+
+<body>
+    
+<div class="container">
+    <div class="coluna">
+        <img src="Logo FitMS.fw.png" alt="Logo" class="img1">
+        <div class="titulo1">Transfira Pix <br> para Lilian Alves Pio</div>
+       
+    </div>
+    <div class="coluna">
+        <div class="titulo">Use o QR Code do Pix para pagar</div>
+        <div class="texto">Abra o app em que vai fazer a transferência, <br> escaneie a imagem ou cole o código do QR Code</div>
+        <div class="campo-translucido">
+            <img src="qr.png" alt="QR Code Pix">
+            <button id="botaoCopiar" onclick="copiarCodigoPix()">Copiar QR Code  <i class="fas fa-copy"></i></button>
+        </div>
+
+    
+        <div class="informacao1">
+            <div class="texto1">Chave Pix CNPJ:</div>
+            
+            <button1 class="texto2" id="CopiarPix" onclick="copiarChavePix()">55.410.747/0001-00 &nbsp;<i class="fas fa-copy"></i></button>
+        </div>
+        <div class="informacao">
+            <div class="texto1">Nome:</div>
+            <div class="texto2">Lilian Alves Pio</div>
+        </div>
+        <div class="informacao">
+            <div class="texto1">Banco:</div>
+            <div class="texto2">260 - Nubank</div>
+        </div> 
+    
+
+    </div>
+</div>
+
+
+</body>
+</html>
